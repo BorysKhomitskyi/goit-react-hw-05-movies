@@ -8,6 +8,7 @@ import styles from './MoviesPage.module.css';
 const MoviesPageList = React.lazy(() => import('./Components/MoviesPageList'));
 
 const MoviesPage = () => {
+  // eslint-disable-next-line no-unused-vars
   const [movie, setMovie] = useState(null);
   const [movies, setMovies] = useState(null);
   const [searchParams, setSearchParams] = useSearchParams();
